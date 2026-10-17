@@ -1,13 +1,23 @@
-# Responsive Portfolio Website Alexa
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
-### Responsive Portfolio Website Alexa
+# Pawan Khatiwada - Portfolio
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a light and dark mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+A responsive, static portfolio website built with HTML, CSS, and vanilla JavaScript. There is no build step or package installation required.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+## Run locally
 
-![preview img](/preview.png)
+From the project directory, start any static file server. For example:
+
+```powershell
+python -m http.server 8000
+```
+
+Then open [http://localhost:8000](http://localhost:8000).
+
+## Deploy to Vercel
+
+Import this repository in Vercel and use the **Other** framework preset. Leave the build command and output directory empty; Vercel serves `index.html` and the included assets directly. No `vercel.json` configuration is needed.
+
+## Personalize before publishing
+
+- Add the inbox address for the contact form to `contactEmail` in `assets/js/main.js`. Until set, the form explains that the address needs to be configured.
+- Review the project descriptions in `index.html` and replace them with case-study details, project links, and your role where appropriate.
+- Review the name, bio, skills, and metadata in `index.html` to ensure they match your preferred public profile.
